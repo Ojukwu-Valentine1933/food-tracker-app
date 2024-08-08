@@ -67,9 +67,6 @@ const LandingPageComponent = () => {
               </div>
             </div>
           </div>
-          <div>
-            <img src={eatingPizza} className={`${styles.eating_pizza}`} alt="" />
-          </div>
           <div className="hero-img">
             <div className={`curved-div ${styles.curved_div}`}>
               <div className={`${styles.hero_img}`}>
@@ -180,6 +177,10 @@ const LandingPageComponent = () => {
             </div>
           </div>
         </div>
+
+
+
+
         <div className={`mt-5`}>
           <div>
             <p className={`${styles.discount_text}`}>
@@ -396,13 +397,6 @@ const LandingPageComponent = () => {
       <section className={`container`}>
         <div className={`bg-body-tertiary ${styles.second_hero_div}`}>
           <div className={`d-flex ${styles.img_and_personalised}`}>
-            <div>
-              <img
-                src={smilingFriends}
-                className={`${styles.second_hero_img}`}
-                alt="..."
-              />
-            </div>
             <div className={`${styles.personalised_div}`}>
               <div className={`d-flex ${styles.img_text}`}>
                 <div className={`second-hero-logo-div ${styles.second_hero_logo_div}`}>

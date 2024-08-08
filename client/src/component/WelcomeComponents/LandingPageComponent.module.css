@@ -54,6 +54,8 @@
 }
 .eating_lady {
   margin-top: 70px;
+  width: 500px;
+  /* margin-right: 50px; */
 }
 /* .eating_pizza {
   height: 500px;
@@ -122,11 +124,11 @@
   margin: 20px;
 }
 .second_hero_div {
-  height: 600px;
+  height: 400px;
   width: 100%;
   border-radius: 17px;
   display: flex;
-  justify-content: right;
+  justify-content: center;
   padding-left: 0 !important;
   padding-right: 0 !important;
   margin-top: 200px !important;
@@ -152,7 +154,7 @@
   height: 70px;
   width: 550px;
   background-color: black;
-  border-radius: 0 70px 70px 0;
+  border-radius: 70px 70px 70px 70px;
   text-align: right;
   padding-right: 70px;
   padding-top: 0px;
@@ -344,15 +346,14 @@ padding-top: 20px;
     margin: 20px;
   }
   .second_hero_div {
-    height: 670px;
+    height: 400px;
     width: 100%;
     border-radius: 17px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin-top: 200px !important;
-    /* position: relative; */
   }
   /* .second_hero_img{
     height: 550px;
@@ -873,7 +874,8 @@ padding-top: 20px;
   }
   .orderedFood_div{
     display: flex !important;
-    justify-content: center !important;
+    margin: 0 0 0 0 !important;
+    /* justify-content: center !important; */
   }
   .restaurantDiv{
     display: flex !important;
