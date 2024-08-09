@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -49,27 +49,17 @@
 }
 .hero_img {
   display: flex;
-  /* justify-content: space-between; */
-  /* position: relative; */
 }
 .eating_lady {
   margin-top: 70px;
   width: 500px;
-  /* margin-right: 50px; */
 }
-/* .eating_pizza {
-  height: 500px;
-  width: 700px;
-  position: absolute;
-  left: 370px;
-  margin-top: 100px;
-} */
 .eating_pizza {
-  height: 71%; /* Adjust percentage as needed */
-  width: 50%; /* Adjust percentage as needed */
+  height: 71%;
+  width: 50%;
   position: absolute;
-  left: 20%; /* Adjust percentage as needed */
-  top: 28.8%; /* Adjust percentage as needed */
+  left: 20%;
+  top: 28.8%;
 }
 .discount_button_div {
   display: flex;
@@ -135,10 +125,10 @@
 }
 
 .second_hero_img {
-  height: 80%; /* Adjust percentage as needed */
-  width: 50%; /* Adjust percentage as needed */
+  height: 80%;
+  width: 50%;
   position: absolute;
-  right: 42%; /* Adjust percentage as needed */
+  right: 42%;
   top: 265%;
 }
 
@@ -160,38 +150,36 @@
   padding-top: 0px;
   margin-top: 30px;
 }
-.download_text{
-color: black;
-font-size: 18px;
-font-weight: 300;
-padding-top: 20px;
+.download_text {
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 20px;
 }
-.chef{
+.chef {
   background-image: url("../../assets/chef.png");
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: center center;
-  background-size: cover; 
+  background-size: cover;
   height: 420px;
   width: 100% !important;
   border-radius: 10px;
   margin: 70px 10px 0 0 !important;
 }
-.dispatchRider{
+.dispatchRider {
   background-image: url("../../assets//dispatch-rider.png");
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: center center;
-  background-size: cover; 
+  background-size: cover;
   height: 420px;
   width: 100%;
   border-radius: 10px;
   margin: 70px 0 0 10px !important;
 }
-.chef_and_dispatch_div{
+.chef_and_dispatch_div {
   display: flex;
 }
-.dispatch_chef_text_one{
+.dispatch_chef_text_one {
   background-color: white;
   font-size: 13px;
   border-radius: 0 0 5px 5px;
@@ -201,13 +189,13 @@ padding-top: 20px;
   text-align: center;
   margin-left: 70px;
 }
-.dispatch_chef_text_two{
+.dispatch_chef_text_two {
   color: #ff8f00;
 }
-.dispatch_chef_text_three{
+.dispatch_chef_text_three {
   color: white;
 }
-.dispatch_chef_text_btn{
+.dispatch_chef_text_btn {
   background-color: #ff8f00;
   color: wheat;
   height: 50px;
@@ -218,10 +206,10 @@ padding-top: 20px;
   border: 1px solid #ff8f00;
   text-align: center;
 }
-.chef_text_div{
+.chef_text_div {
   margin-left: 70px;
 }
-.dispatch_text_div{
+.dispatch_text_div {
   margin-left: 70px;
   margin-top: 200px;
 }
@@ -273,25 +261,16 @@ padding-top: 20px;
   }
   .hero_img {
     display: flex;
-    /* justify-content: space-between; */
-    /* position: relative; */
   }
   .eating_lady {
     margin-top: 70px;
   }
-  /* .eating_pizza {
-    height: 500px;
-    width: 700px;
-    position: absolute;
-    left: 370px;
-    margin-top: 100px;
-  } */
   .eating_pizza {
-    height: 40% !important; /* Adjust percentage as needed */
-    width: 40% !important; /* Adjust percentage as needed */
+    height: 40% !important;
+    width: 40% !important;
     position: absolute !important;
-    left: 29% !important; /* Adjust percentage as needed */
-    top: 34.5% !important; /* Adjust percentage as needed */
+    left: 29% !important;
+    top: 34.5% !important;
   }
   .discount_button_div {
     display: flex;
@@ -355,17 +334,11 @@ padding-top: 20px;
     padding-right: 0 !important;
     margin-top: 200px !important;
   }
-  /* .second_hero_img{
-    height: 550px;
-    width: 720px;
-    position: absolute;
-    right: 600px !important;
-  } */
   .second_hero_img {
-    height: 65% !important; /* Adjust percentage as needed */
-    width: 50% !important; /* Adjust percentage as needed */
+    height: 65% !important;
+    width: 50% !important;
     position: absolute !important;
-    right: 42% !important; /* Adjust percentage as needed */
+    right: 42% !important;
     top: 200% !important;
   }
 
@@ -401,16 +374,13 @@ padding-top: 20px;
     height: 300px;
     width: 300px;
     margin-top: 160px;
-    /* height: 0px; */
-    /* width: 400px; */
-    /* width: 100%;  */
   }
   .eating_pizza {
-    height: 30% !important; /* Adjust percentage as needed */
-    width: 40% !important; /* Adjust percentage as needed */
+    height: 30% !important;
+    width: 40% !important;
     position: absolute !important;
-    left: 29% !important; /* Adjust percentage as needed */
-    top: 45% !important; /* Adjust percentage as needed */
+    left: 29% !important;
+    top: 45% !important;
   }
   .marquee ul {
     font-size: 20px;
@@ -466,14 +436,13 @@ padding-top: 20px;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin-top: 150px !important;
-    /* position: relative; */
   }
 
   .second_hero_img {
-    height: 50% !important; /* Adjust percentage as needed */
-    width: 50% !important; /* Adjust percentage as needed */
+    height: 50% !important;
+    width: 50% !important;
     position: absolute !important;
-    right: 45% !important; /* Adjust percentage as needed */
+    right: 45% !important;
     top: 208% !important;
   }
   .personalised_div {
@@ -486,7 +455,6 @@ padding-top: 20px;
     border-radius: 0 70px 70px 0;
     text-align: right;
     padding-right: 70px;
-    /* padding-bottom: px !important; */
     margin-top: 30px;
   }
   .personalised span {
@@ -500,33 +468,31 @@ padding-top: 20px;
   .img_text span {
     font-size: 45px !important;
   }
-  .dowloandIcons{
+  .dowloandIcons {
     height: 50px;
     width: 300px;
   }
-  .chef{
+  .chef {
     background-image: url("../../assets/chef.png");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     height: 350px;
     width: 100% !important;
     border-radius: 10px;
     margin: 70px 5px 50px 0 !important;
   }
-  .dispatchRider{
+  .dispatchRider {
     background-image: url("../../assets//dispatch-rider.png");
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     height: 350px;
     width: 100%;
     border-radius: 10px;
     margin: 70px 0 50px 5px !important;
   }
-  .dispatch_chef_text_one{
+  .dispatch_chef_text_one {
     background-color: white;
     font-size: 13px;
     border-radius: 0 0 5px 5px;
@@ -536,10 +502,10 @@ padding-top: 20px;
     text-align: center;
     margin-left: 30px;
   }
-  .dispatch_chef_text_three{
+  .dispatch_chef_text_three {
     color: white;
   }
-  .dispatch_chef_text_btn{
+  .dispatch_chef_text_btn {
     background-color: #ff8f00;
     color: wheat;
     height: 40px;
@@ -550,10 +516,10 @@ padding-top: 20px;
     border: 1px solid #ff8f00;
     text-align: center;
   }
-  .chef_text_div{
+  .chef_text_div {
     margin-left: 70px;
   }
-  .dispatch_text_div{
+  .dispatch_text_div {
     margin-left: 30px;
     margin-top: 120px;
   }
@@ -610,8 +576,6 @@ padding-top: 20px;
   .discount_food {
     height: 200px;
     width: 100%;
-
-    /* width: 200px; */
   }
   .discountFood_img {
     margin-top: 20px;
@@ -641,10 +605,9 @@ padding-top: 20px;
   }
 
   .second_hero_img {
-    height: 50%; /* Adjust percentage as needed */
-    width: 50%; /* Adjust percentage as needed */
-    /* position: absolute; */
-    right: 30% !important; /* Adjust percentage as needed */
+    height: 50%;
+    width: 50%;
+    right: 30% !important;
     top: 360% !important;
   }
   .personalised_div {
@@ -664,7 +627,6 @@ padding-top: 20px;
     border-radius: 0 0 0 0 !important;
     text-align: center;
     padding-right: 0px !important;
-    /* padding-bottom: px !important; */
     margin-top: 0px !important;
   }
   .personalised span {
@@ -675,10 +637,6 @@ padding-top: 20px;
     width: 210px;
     margin-top: 45px !important;
   }
-  /* .img_text{
-    display: flex;
-    justify-content: center;
-  } */
   .img_text span {
     font-size: 40px !important;
     margin-top: 35px !important;
@@ -695,7 +653,7 @@ padding-top: 20px;
   .eating_pizza {
     display: none;
   }
-  
+
   .feast {
     text-align: center;
     font-size: 40px !important;
@@ -735,8 +693,6 @@ padding-top: 20px;
   .discount_food {
     height: 200px;
     width: 100%;
-
-    /* width: 200px; */
   }
   .discountFood_img {
     margin-top: 20px;
@@ -764,124 +720,66 @@ padding-top: 20px;
     padding-right: 0 !important;
     margin-top: 200px !important;
   }
-  
+
   .second_hero_img {
-    /* height: 80%; 
-    width: 50%; 
-    position: absolute;
-    right: 42%; 
-    top: 265%; */
     height: 50% !important;
     width: 100% !important;
     position: absolute !important;
     right: 0% !important;
     top: 495% !important;
-    /* display: none; */
   }
-  
+
   .second_hero_logo {
-    /* height: 50px;
-    width: 230px;
-    margin-top: 100px !important; */
     height: 32px !important;
     width: 120px !important;
     margin-top: 50px !important;
-    /* display: none; */
   }
-  
+
   .personalised {
-    /* height: 70px;
-    width: 550px;
-    background-color: black;
-    border-radius: 0 70px 70px 0;
-    text-align: right;
-    padding-right: 70px;
-    padding-top: 0px;
-    margin-top: 30px; */
     height: 50px;
     width: 350px;
-    background-color: black ;
+    background-color: black;
     border-radius: 70px 70px 70px 70px !important;
     padding: 5px 0 0 0;
-    /* display: none; */
   }
-  .personalised span{
+  .personalised span {
     font-size: 20px !important;
   }
-  .download_text{
-  color: black;
-  font-size: 18px;
-  font-weight: 300;
-  padding-top: 20px;
-  }
-  .chef{
-    /* background-image: url("../../assets/chef.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    height: 350px;
-    width: 100% !important;
-    border-radius: 10px;
-    margin: 70px 5px 50px 0 !important; */
-    display: none;
-  }
-  .dispatchRider{
-    /* background-image: url("../../assets//dispatch-rider.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    height: 350px;
-    width: 100%;
-    border-radius: 10px;
-    margin: 70px 0 50px 5px !important; */
-    display: none;
-  }
-  .dispatch_chef_text_one{
-    /* background-color: white;
-    font-size: 13px;
-    border-radius: 0 0 5px 5px;
-    font-weight: 800;
-    height: 30px;
-    width: 220px;
-    text-align: center;
-    margin-left: 30px; */
-    display: none;
-  }
-  .dispatch_chef_text_three{
-    /* color: white; */
-    display: none;
-  }
-  .dispatch_chef_text_btn{
-    /* background-color: #ff8f00;
-    color: wheat;
-    height: 40px;
-    width: 150px;
+  .download_text {
+    color: black;
     font-size: 18px;
-    font-weight: 600;
-    border-radius: 50px 50px 50px 50px;
-    border: 1px solid #ff8f00;
-    text-align: center; */
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .chef {
     display: none;
   }
-  .chef_text_div{
-    /* margin-left: 70px; */
+  .dispatchRider {
     display: none;
   }
-  .dispatch_text_div{
-    /* margin-left: 30px;
-    margin-top: 120px; */
+  .dispatch_chef_text_one {
     display: none;
   }
-  .orderedFood_div{
+  .dispatch_chef_text_three {
+    display: none;
+  }
+  .dispatch_chef_text_btn {
+    display: none;
+  }
+  .chef_text_div {
+    display: none;
+  }
+  .dispatch_text_div {
+    display: none;
+  }
+  .orderedFood_div {
     display: flex !important;
     margin: 0 0 0 0 !important;
-    /* justify-content: center !important; */
   }
-  .restaurantDiv{
+  .restaurantDiv {
     display: flex !important;
     justify-content: center !important;
   }
-  
 }
 
 @media (max-width: 320px) {
@@ -936,8 +834,6 @@ padding-top: 20px;
   .discount_food {
     height: 200px;
     width: 100%;
-
-    /* width: 200px; */
   }
   .discountFood_img {
     margin-top: 20px;
@@ -966,127 +862,79 @@ padding-top: 20px;
     margin-top: 50px !important;
   }
   .second_hero_img {
-    /* height: 80%; 
-    width: 50%; 
-    position: absolute;
-    right: 42%; 
-    top: 265%; */
     height: 40% !important;
     width: 90% !important;
     position: absolute !important;
     right: 5% !important;
     top: 465% !important;
-    /* display: none; */
   }
-  .second_hero_logo_div{
+  .second_hero_logo_div {
     display: flex !important;
     justify-content: center !important;
   }
   .second_hero_logo {
-    /* height: 50px;
-    width: 230px;
-    margin-top: 100px !important; */
     height: 30px !important;
     width: 100px !important;
     margin-top: 50px !important;
-    /* display: none; */
-  
   }
-  .img_text{
+  .img_text {
     display: flex !important;
     justify-content: center !important;
   }
-  .img_text span{
+  .img_text span {
     font-size: 28px !important;
-  margin-top: 45px !important;
+    margin-top: 45px !important;
   }
-  
+
   .personalised {
     height: 50px;
     width: 280px;
-    background-color: black ;
+    background-color: black;
     border-radius: 70px 70px 70px 70px !important;
     padding: 5px 0 0 0;
   }
-  .download_text{
+  .download_text {
     font-size: 14px !important;
   }
-  .dowloandIcons{
+  .dowloandIcons {
     height: 50px !important;
     width: 250px !important;
   }
-  .personalised span{
+  .personalised span {
     font-size: 20px !important;
   }
-  .download_text{
-  color: black;
-  font-size: 18px;
-  font-weight: 300;
-  padding-top: 20px;
-  }
-  .chef{
-    /* background-image: url("../../assets/chef.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    height: 350px;
-    width: 100% !important;
-    border-radius: 10px;
-    margin: 70px 5px 50px 0 !important; */
-    display: none;
-  }
-  .dispatchRider{
-    /* background-image: url("../../assets//dispatch-rider.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    height: 350px;
-    width: 100%;
-    border-radius: 10px;
-    margin: 70px 0 50px 5px !important; */
-    display: none;
-  }
-  .dispatch_chef_text_one{
-    /* background-color: white;
-    font-size: 13px;
-    border-radius: 0 0 5px 5px;
-    font-weight: 800;
-    height: 30px;
-    width: 220px;
-    text-align: center;
-    margin-left: 30px; */
-    display: none;
-  }
-  .dispatch_chef_text_three{
-    /* color: white; */
-    display: none;
-  }
-  .dispatch_chef_text_btn{
-    /* background-color: #ff8f00;
-    color: wheat;
-    height: 40px;
-    width: 150px;
+  .download_text {
+    color: black;
     font-size: 18px;
-    font-weight: 600;
-    border-radius: 50px 50px 50px 50px;
-    border: 1px solid #ff8f00;
-    text-align: center; */
+    font-weight: 300;
+    padding-top: 20px;
+  }
+  .chef {
     display: none;
   }
-  .chef_text_div{
-    /* margin-left: 70px; */
+  .dispatchRider {
     display: none;
   }
-  .dispatch_text_div{
-    /* margin-left: 30px;
-    margin-top: 120px; */
+  .dispatch_chef_text_one {
     display: none;
   }
-  .orderedFood_div{
+  .dispatch_chef_text_three {
+    display: none;
+  }
+  .dispatch_chef_text_btn {
+    display: none;
+  }
+  .chef_text_div {
+    display: none;
+  }
+  .dispatch_text_div {
+    display: none;
+  }
+  .orderedFood_div {
     display: flex !important;
     justify-content: center !important;
   }
-  .restaurantDiv{
+  .restaurantDiv {
     display: flex !important;
     justify-content: center !important;
   }
